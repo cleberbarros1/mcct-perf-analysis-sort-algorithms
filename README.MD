@@ -4,7 +4,7 @@ Mestrado em Modelagem Computacional - UFF/ EEIMVR - 20/04/2024
 
 Objetivo deste projeto é executar e cronometrar algoritmos para ordenação de vetores nas linguagens C/C++, obter os tempos de ordenação para as amostragem e comparar as complexidades de cada algoritmo. :timer_clock:
 
-![01](imagens\01.PNG)
+![01](imagens/01.PNG)
 
 
 
@@ -50,4 +50,4 @@ Parâmetros:
 
 ---> Os parâmetros iniciais como devem ser configurados diretamente no código fonte principal **CronometroPerformance.cpp** através das seguintes variáveis declaradas:
 
-![02](imagens\02.PNG)
+![02](imagens/02.PNG)
