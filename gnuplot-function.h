@@ -11,9 +11,9 @@ void plotarGrafico(FILE* pipe) {
 
   fprintf(pipe, "i = 1 \n");
 
-  fprintf(pipe, "set ylabel ' Average for 30x in seconds' \n"); // Set plot title
+  fprintf(pipe, "set ylabel ' Average for 30x in seconds' \n"); 
 
-  fprintf(pipe, "set xlabel 'Amount of Entries V[x]' \n"); // Set plot title
+  fprintf(pipe, "set xlabel 'Amount of Entries V[x]' \n");
 
   fprintf(pipe, "set size 0.9, 0.9 \n");
 
@@ -23,7 +23,6 @@ void plotarGrafico(FILE* pipe) {
 
   fprintf(pipe, "set title 'Perfomance Analysis for Sorting Algorithms' \n");
 
-  // Flush the pipe to ensure commands are sent
   fflush(pipe);
 
 }
