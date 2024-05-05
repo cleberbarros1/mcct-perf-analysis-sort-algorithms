@@ -26,18 +26,20 @@ Objetivo deste projeto é executar e cronometrar algoritmos para ordenação de 
 
 ---> Vetores com V[5000] ~ V[20000];
 
----> Cada vetor é criado com entradas aleatórias, utilizando como apoio a biblioteca <random> padrão da biblioteca C/C++.
+---> Cada vetor é criado com entradas aleatórias, utilizando como apoio a biblioteca <i>random</i> padrão da biblioteca C/C++.
 
 ---> x30 vezes a execução de cada ordenação para obter medias de tempo
 
 ---> Os tempos são obtidos com o apoio da Biblioteca <Chrono> , sendo iniciado uma marcação de tempo antes do processo de ordenação, após o processo e então calculada a diferença entre os tempos para obter o tempo final de execução do processo.
 
 ---> Execução de algoritmos de ordenação: 
-• Bubble Sort
-• Insertion Sort
-• Selection Sort
-• Merge Sort
-• Quick Sort
+<br>
+
+• Bubble Sort <br>
+• Insertion Sort <br>
+• Selection Sort <br>
+• Merge Sort <br>
+• Quick Sort <br>
 
 ---> Cada método de ordenação é validado pelo programa adicional de testes **TesteUnitarioDosMetodos.cpp** criado para este fim.
 
